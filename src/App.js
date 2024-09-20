@@ -11,7 +11,7 @@ import Slider from './Components/Slider'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/swasthya-saathi">
       <Header />
 
       <main className="py-3">
