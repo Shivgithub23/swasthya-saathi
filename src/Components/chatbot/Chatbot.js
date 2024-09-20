@@ -137,11 +137,11 @@ const Chatbot = (props) => {
       <div>
         {!showChat ? (
           <button className="btn" onClick={() => startChat()}>
-            <i className="fa fa-minus"></i>
+            <img src="https://github.com/Prashitraj/swasthya-saathi/blob/master/public/chat-icon.png?raw=true" width="100" height="100"></img>
           </button>
         ) : (
           <button className="btn" onClick={() => hideChat()}>
-            <i className="fa fa-plus"></i>
+            <img src="https://github.com/Prashitraj/swasthya-saathi/blob/master/public/chat-icon.png?raw=true" width="100" height="100"></img>
           </button>
         )}
       </div>

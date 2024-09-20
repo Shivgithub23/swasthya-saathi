@@ -11,7 +11,7 @@ export default function Slider() {
           fluid
         />
         <Carousel.Caption className="carousel-caption">
-          <h2>Welcome to RMC chatbot</h2>
+          <h2>Welcome to Swaasthya-Saathi</h2>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
