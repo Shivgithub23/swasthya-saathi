@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/swasthya-saathi/static/css/main.faa2ad5f.css",
+    "main.js": "/swasthya-saathi/static/js/main.6c501cf7.js",
+    "index.html": "/swasthya-saathi/index.html",
+    "main.faa2ad5f.css.map": "/swasthya-saathi/static/css/main.faa2ad5f.css.map",
+    "main.6c501cf7.js.map": "/swasthya-saathi/static/js/main.6c501cf7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faa2ad5f.css",
+    "static/js/main.6c501cf7.js"
+  ]
+}
