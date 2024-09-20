@@ -7,7 +7,7 @@ export default function Slider() {
     <Carousel pause="hover" className="bg-dark">
       <Carousel.Item>
         <img
-          src="https://github.com/Akash52/react-chatbot/blob/master/public/images/first.jpg?raw=true"
+          src="https://github.com/Prashitraj/swasthya-saathi/blob/master/public/images/first.jpg?raw=true"
           fluid
         />
         <Carousel.Caption className="carousel-caption">
@@ -16,7 +16,7 @@ export default function Slider() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="https://github.com/Akash52/react-chatbot/blob/master/public/images/second.jpg?raw=true"
+          src="https://github.com/Prashitraj/swasthya-saathi/blob/master/public/images/second.jpg?raw=true"
           fluid
         />
         <Carousel.Caption className="carousel-caption">
@@ -25,7 +25,7 @@ export default function Slider() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src="https://raw.githubusercontent.com/Akash52/react-chatbot/master/public/images/third.jpg"
+          src="https://raw.githubusercontent.com/Prashitraj/swasthya-saathi/master/public/images/third.jpg"
           fluid
         />
         <Carousel.Caption className="carousel-caption">

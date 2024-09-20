@@ -1,7 +1,7 @@
 # React Chat-Bot using simple-react-chatbot
 ---
 
-[Live Demo](https://akash52.github.io/react-chatbot)
+[Live Demo](https://Prashitraj.github.io/swasthya-saathi)
 
 ##  About <a name = "about"></a>
 
@@ -15,8 +15,8 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
 
 ### Installing your local machine
 
- - git clone https://github.com/Akash52/react-chatbot
- - cd react-chatbot
+ - git clone https://github.com/Prashitraj/swasthya-saathi.git
+ - cd swasthya-saathi
  - npm install (these command install relevant dependencies)
  - npm start 
   The demo will be live at `http://localhost:3000`
@@ -37,14 +37,14 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
 ## Sample
 
 <p align="center">
-<img src="https://github.com/Akash52/react-chatbot/blob/master/public/images/ChatBot.gif?raw=true" width="600 height="600"/>
+<img src="https://github.com/Prashitraj/swasthya-saathi/blob/master/public/images/ChatBot.gif?raw=true" width="600 height="600"/>
 </p>
   
-                                                                                                                                                                                
+<!--                                                                                                                                                                                 
 ## Feel Free to use your upcoming projects ! 
 
 ### 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- [React Simple Chatbot](https://github.com/LucasBassetti/react-simple-chatbot) 
+- [React Simple Chatbot](https://github.com/LucasBassetti/react-simple-chatbot)  -->
 
 
 
