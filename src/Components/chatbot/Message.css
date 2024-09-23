@@ -1,0 +1,13 @@
+/* src/components/Message.css */
+.message {
+    display: flex;
+    margin: 10px;
+  }
+  
+  .message-content {
+    max-width: 60%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #524888;
+    color: white
+  }

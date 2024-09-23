@@ -16,13 +16,13 @@ const App = () => {
 
       <main className="py-3">
         <Container>
-          <div className="bot">
+          {/* <div className="bot"> */}
             <Route path="/" component={Chatbot} exact />
-          </div>
+          {/* </div> */}
           <Route path="/faq" component={Faq} />
           <Route path="/help" component={Help} />
 
-          <Route path="/" component={Slider} exact />
+          {/* <Route path="/" component={Slider} exact /> */}
         </Container>
       </main>
       <Footer />

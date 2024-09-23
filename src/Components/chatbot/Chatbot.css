@@ -1,0 +1,10 @@
+/* src/components/Chatbot.css */
+.chatbot {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../../../public/background.jpeg');
+    background-size: auto;
+    background-position: center;
+  }
+  
