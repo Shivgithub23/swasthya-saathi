@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/swasthya-saathi/static/css/main.a94f2f5f.css",
-    "main.js": "/swasthya-saathi/static/js/main.6402397b.js",
+    "main.js": "/swasthya-saathi/static/js/main.e8a05608.js",
     "static/media/background.jpeg": "/swasthya-saathi/static/media/background.0e10ba3ccc55eb530d4b.jpeg",
     "index.html": "/swasthya-saathi/index.html",
     "main.a94f2f5f.css.map": "/swasthya-saathi/static/css/main.a94f2f5f.css.map",
-    "main.6402397b.js.map": "/swasthya-saathi/static/js/main.6402397b.js.map"
+    "main.e8a05608.js.map": "/swasthya-saathi/static/js/main.e8a05608.js.map"
   },
   "entrypoints": [
     "static/css/main.a94f2f5f.css",
-    "static/js/main.6402397b.js"
+    "static/js/main.e8a05608.js"
   ]
 }
