@@ -10,7 +10,7 @@ const Header = () => {
           <Container>
             <LinkContainer to="/">
               <Navbar.Brand>
-                <i className="fas fa-robot"></i> ChatBot
+                <i className="fas fa-robot"></i> Swasthya-Saathi
               </Navbar.Brand>
             </LinkContainer>
 
