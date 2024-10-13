@@ -7,7 +7,7 @@ import Header from './Components/Header'
 import Faq from './Components/Faq'
 import Help from './Components/Help'
 import './App.css'
-import Slider from './Components/Slider'
+import AboutUsPage from './Components/AboutUs'
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
           {/* <div className="bot"> */}
             <Route path="/" component={Chatbot} exact />
           {/* </div> */}
+          <Route path="/aboutUs" component={AboutUsPage}/>
           <Route path="/faq" component={Faq} />
           <Route path="/help" component={Help} />
 

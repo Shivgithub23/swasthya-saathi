@@ -108,14 +108,164 @@ const predefinedResponses = {
 "what are the symptoms of adenocarcinoma?" :"The following are the symptoms of adenocarcinoma: mass of body structure, lesion, decreased body weight, constipation, fremitus, decreased stool caliber, satiety early, hematochezia, egophony, pain, scar tissue, pain abdominal"
 };
 
+const defaultLocations = [
+  {
+      "hospitalName": "BOWRING AND LADY CURZON HOSPITALS",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.6040572,
+      "latitude": 12.982188,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nGenitourinary Surgery\n\nNeuro Surgery\n\nSurgical Oncology\n\nBurns,Plastic & reconstructive Surgery\n\nPolytrauma\nTreatment Procedure Dental Procedures\n\nCritical Care\n\nGeneral Medicine\n\nPaediatrics\n\nNeonatology\n\nCardiology\n\nNephrology\n\nNeurology\n\nChest diseases and respiratory medicine(Pulmonology)"
+  },
+  {
+      "hospitalName": "NARAYANA HRUDAYALAYA LIMITED",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.6954359,
+      "latitude": 12.8094974,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nGenitourinary Surgery\n\nNeuro Surgery\n\nSurgical Oncology\n\nBurns,Plastic & reconstructive Surgery\n\nPolytrauma\nTreatment Procedure Dental Procedures\n\nCritical Care\n\nGeneral Medicine\n\nPaediatrics\n\nNeonatology\n\nCardiology\n\nNephrology\n\nNeurology\n\nChest diseases and respiratory medicine(Pulmonology)"
+  },
+  {
+      "hospitalName": "SAGAR HOSPITALS",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.5651177,
+      "latitude": 12.9079517,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nPaediatric Cancer\n\nGeneral Medicine"
+  },
+  {
+      "hospitalName": "VYDEHI HOSPITAL",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.7294128,
+      "latitude": 12.9756768,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nPaediatric Cancer\n\nGeneral Medicine"
+  },
+  {
+      "hospitalName": "BMCRI SSH PMSSY",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.5729655,
+      "latitude": 12.9624491,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nCardio Thoracic Surgery\n\nBurns,Plastic & reconstructive Surgery\n\nPaediatric Cancer\n\nGeneral Medicine\n\nCardiology"
+  },
+  {
+      "hospitalName": "GENERAL HOSPITAL KR PURAM",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.6939042,
+      "latitude": 13.008721,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nPaediatric Cancer\n\nGeneral Medicine"
+  },
+  {
+      "hospitalName": "General Hospital Jayanagar",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.5928642,
+      "latitude": 12.9263331,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nPaediatric Cancer\n\nGeneral Medicine"
+  },
+  {
+      "hospitalName": "COMMUNITY HEALTH CENTER AVALAHALLI",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.7146563,
+      "latitude": 13.0503197,
+      "departments": "ENT\n\nOrthopaedics\n\nGeneral Medicine"
+  },
+  {
+      "hospitalName": "CHC Chandrappa Cercle",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.3898602,
+      "latitude": 12.9459719,
+      "departments": "General Medicine"
+  },
+  {
+      "hospitalName": "General Hospital Anekal",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.69562,
+      "latitude": 12.709623,
+      "departments": "General Medicine"
+  },
+  {
+      "hospitalName": "AYURVAID HOSPITAL -RAMAMURTHY NAGAR",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.665434598,
+      "latitude": 13.015073661,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nPaediatric Cancer\n\nGeneral Medicine"
+  },
+  {
+      "hospitalName": "M S RAMAIAH MEMORIAL HOSPITAL",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.5703924,
+      "latitude": 13.0282554,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nGenitourinary Surgery\n\nNeuro Surgery\n\nSurgical Oncology\n\nBurns, Plastic & reconstructive Surgery\n\nPolytrauma\nTreatment Procedure Dental Procedures\n\nCritical Care\n\nGeneral Medicine\n\nPaediatrics\n\nNeonatology\n\nCardiology\n\nNephrology\n\nNeurology\n\nChest diseases and respiratory medicine(Pulmonology)"
+  },
+  {
+      "hospitalName": "Fortis Hospitals Limited",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.5939992,
+      "latitude": 12.900611,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nGenitourinary Surgery\n\nNeuro Surgery\n\nSurgical Oncology\n\nBurns,Plastic & reconstructive Surgery\n\nPolytrauma\nTreatment Procedure Dental Procedures\n\nCritical Care\n\nGeneral Medicine\n\nPaediatrics\n\nNeonatology\n\nCardiology\n\nNephrology\n\nNeurology\n\nChest diseases and respiratory medicine(Pulmonology)"
+  },
+  {
+      "hospitalName": "Sakra World Hospital",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.6851886,
+      "latitude": 12.9323275,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nPaediatric Cancer\n\nGeneral Medicine"
+  },
+  {
+      "hospitalName": "APOLLO HOSPITALS SHESHADRIPURAM",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.5726879,
+      "latitude": 12.9883022,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nPaediatric Cancer\n\nGeneral Medicine"
+  },
+  {
+      "hospitalName": "P D HINDUJA SINDHI HOSPITAL",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.594032,
+      "latitude": 12.971773,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nPaediatric Cancer\n\nGeneral Medicine"
+  },
+  {
+      "hospitalName": "PAN NAGARBHAVI HOSPITALS PVT LTD",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.5204992,
+      "latitude": 12.9611882,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nPaediatric Cancer\n\nGeneral Medicine"
+  },
+  {
+      "hospitalName": "IMPERIAL HOSPITAL AND RESEARCH CENTER LIMITED A UNIT OF APOLLO HOSPITAL",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.5984218,
+      "latitude": 12.8962841,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nGenitourinary Surgery\n\nNeuro Surgery\n\nSurgical Oncology\n\nBurns,Plastic & reconstructive Surgery\n\nPolytrauma\nTreatment Procedure Dental Procedures\n\nCritical Care\n\nGeneral Medicine\n\nPaediatrics\n\nNeonatology\n\nCardiology\n\nNephrology\n\nNeurology\n\nChest diseases and respiratory medicine(Pulmonology)"
+  },
+  {
+      "hospitalName": "Aster CMI Hospital",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.5963159,
+      "latitude": 13.0464229,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nGenitourinary Surgery\n\nNeuro Surgery\n\nSurgical Oncology\n\nBurns,Plastic & reconstructive Surgery\n\nPolytrauma\nTreatment Procedure Dental Procedures\n\nCritical Care\n\nGeneral Medicine\n\nPaediatrics\n\nNeonatology\n\nCardiology\n\nNephrology\n\nNeurology\n\nChest diseases and respiratory medicine(Pulmonology)"
+  },
+  {
+      "hospitalName": "FORTIS HOSPITAL CUNNINGHAM ROAD",
+      "address": "BENGALURU URBAN",
+      "longitude": 77.5943994,
+      "latitude": 12.9883318,
+      "departments": "General Surgery\n\nENT\n\nOphthalmology\n\nObstetrics & Gynaecology\n\nOrthopaedics\n\nPaediatric Cancer\n\nGeneral Medicine\n\nPaediatrics\n\nNeonatology\n\nBurns,Plastic & reconstructive Surgery\n\nPolytrauma\nTreatment Procedure Dental Procedures"
+  }
+];
+
 function Chatbot() {
   const [chatHistory, setChatHistory] = useState([{sender: "bot", text:"Hi how can I help you?"}]);
 
   const handleSend = (userInput) => {
     const lowerCaseInput = userInput.toLowerCase();
     const response = predefinedResponses[lowerCaseInput] || "Sorry, I don't understand that.";
-    
-    setChatHistory([...chatHistory, { sender: "you", text: userInput }, { sender: "bot", text: response }]);
+
+    if(lowerCaseInput.includes("show map"))
+    {
+      setChatHistory([...chatHistory, { sender: "you", text: userInput }, { sender: "map", text: "Here's the location that you requested.", locations: defaultLocations }]);
+    } 
+    else 
+    {
+      setChatHistory([...chatHistory, { sender: "you", text: userInput }, { sender: "bot", text: response }]);
+    }  
   };
 
   return (

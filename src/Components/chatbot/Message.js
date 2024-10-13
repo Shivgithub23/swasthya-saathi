@@ -1,8 +1,19 @@
 // src/components/Message.js
 import React from 'react';
 import './Message.css';
+import MapComponent from './MapComponent';
 
-function Message({ sender, text }) {
+function Message({ sender, text, locations }) {
+  if(sender === "map")
+  {
+    return (
+    <div className="message">
+      <MapComponent locations = {locations}/>
+    </div>
+    );
+  }
+  else 
+  {
   return (
     <div className="message">
       <div className="message-content">
@@ -11,6 +22,7 @@ function Message({ sender, text }) {
       </div>
     </div>
   );
+  }
 }
 
 export default Message;

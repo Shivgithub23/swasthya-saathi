@@ -38,3 +38,8 @@ a {
   height: 200px;
   width: 300px;
 }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
