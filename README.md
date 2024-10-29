@@ -1,51 +1,34 @@
-# React Chat-Bot using simple-react-chatbot
----
+# React JS Landing Page Template
 
-[Live Demo](https://Prashitraj.github.io/swasthya-saathi)
+**
 
-##  About <a name = "about"></a>
+# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
 
-Project Purpose was people can efficiently solve his/her queries using chatbot
-
-### Prerequisites
-
-- [NodeJS](https://nodejs.org/en/)
-- [Git Bash](https://git-scm.com/downloads)
+**
 
 
-### Installing your local machine
+### <a href="https://react-landing-page-template-93ne.vercel.app/">LIVE DEMO</a> 
 
- - git clone https://github.com/Prashitraj/swasthya-saathi.git
- - cd swasthya-saathi
- - npm install (these command install relevant dependencies)
- - npm start 
-  The demo will be live at `http://localhost:3000`
+## Description
+This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
+All 'visual' data can be easily modified by changing the data.json file.
 
+## Make it Yours!
+### 1. Preps
+You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
 
- ## Features
- 
- - Fully Progressive Web Application
- - Single Page Appliacation (SPA)
- - Responsive
+### 2. Clone Files
+After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
+### 3. Add your own data 
+Change the data in the ```data.json``` file as well as add any images to ```public/img/```
+You can also change styles by modifying the ```public/css``` files.
+If you need the contact form to work, you also need to create an EmailJS account, and modify the ```src/components/contact.jsx``` file to replace your own service ID, template ID and Public Key
 
+## Like this project?
+<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
 
-## ⛏️ Built Using <a name = "built_using"></a>
+## Credits
+##### Free CSS 
+<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
 
-- [ReactJS](https://reactjs.org/)
-- [React Bootstrap](https://react-bootstrap.github.io/)
-
-## Sample
-
-<p align="center">
-<img src="https://github.com/Prashitraj/swasthya-saathi/blob/master/public/images/ChatBot.gif?raw=true" width="600 height="600"/>
-</p>
-  
-<!--                                                                                                                                                                                 
-## Feel Free to use your upcoming projects ! 
-
-### 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- [React Simple Chatbot](https://github.com/LucasBassetti/react-simple-chatbot)  -->
-
-
-
-
+##### Issaaf kattan

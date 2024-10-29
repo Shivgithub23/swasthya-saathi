@@ -1,9 +1,0 @@
-/* src/components/Chatbot.css */
-.chatbot {
-    display: flex;
-    flex-direction: column;
-    height: 80vh;
-    background-color: 'gray';
-    background-position: center;
-  }
-  
