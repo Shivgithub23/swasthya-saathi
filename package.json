@@ -36,7 +36,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "https://Prashitraj.github.io/swasthya-saathi/"
+    "homepage": "https://prashitraj.github.io/swasthya-saathi/"
   },
   "devDependencies": {
     "gh-pages": "^6.2.0"
